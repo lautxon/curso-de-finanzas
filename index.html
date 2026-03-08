@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Finanzas MUAR 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#121212">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Finanzas <span class="highlight">MUAR 2.0</span></h1>
+            <p class="subtitle">"El dinero no es solo números; es tiempo cristalizado, decisiones materializadas y relaciones cuantificadas."</p>
+            <div class="philosophy-tag">Aprender finanzas con el MUAR es aprender a pensar sistemas de valor.</div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <button class="nav-btn active" onclick="showSection('intro')">Identidad</button>
+        <button class="nav-btn" onclick="showSection('parte1')">1. Mente Lineal</button>
+        <button class="nav-btn" onclick="showSection('parte2')">2. Mente Estructurada</button>
+        <button class="nav-btn" onclick="showSection('parte3')">3. Mente Abstracta</button>
+        <button class="nav-btn" onclick="showSection('transversal')">Transversal</button>
+    </nav>
+
+    <main>
+        <!-- IDENTIDAD DEL CURSO -->
+        <section id="intro" class="content-section active">
+            <div class="card full-width">
+                <h2>Identidad del Curso: Finanzas como Lenguaje de Decisiones</h2>
+                <p class="lead">Las finanzas no se enseñan aquí como un conjunto de fórmulas memorizables, sino como un lenguaje formal para tomar decisiones bajo restricciones.</p>
+                
+                <div class="comparison-container">
+                    <div class="col">
+                        <h3>📜 Lenguaje Formal</h3>
+                        <ul class="finance-list">
+                            <li><strong>Sintaxis estricta:</strong> Estados financieros y normas contables que no admiten ambigüedad.</li>
+                            <li><strong>Interpretación:</strong> El mercado y la realidad traducen nuestras decisiones en resultados tangibles.</li>
+                            <li><strong>Estructuras:</strong> Cuentas, categorías, activos y pasivos organizan la información.</li>
+                            <li><strong>Procesos:</strong> Presupuestar, invertir y auditar son bloques de lógica reutilizables.</li>
+                            <li><strong>Entidades:</strong> Personas, empresas y fondos son objetos con comportamiento económico.</li>
+                            <li><strong>Memoria:</strong> El historial crediticio y los estados acumulados dan persistencia a los datos.</li>
+                            <li><strong>Gestión de Riesgo:</strong> Fondos de emergencia y seguros son el manejo de excepciones.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTE 1 -->
+        <section id="parte1" class="content-section">
+            <div class="section-header">
+                <h2>Parte 1: La Mente Lineal</h2>
+                <span class="tag">Transacciones Básicas</span>
+            </div>
+            
+            <div class="card">
+                <h3>🎯 Objetivo Conceptual</h3>
+                <p>Comprender que cada movimiento financiero es una instrucción secuencial que modifica un estado (saldo). El dinero fluye como datos por un programa: entra, se transforma, sale.</p>
+                
+                <div class="case-study">
+                    <h4>📁 CASO EVOLUTIVO 1: "El Registro de Transacciones"</h4>
+                    <p><strong>Documento Base:</strong> Hoja de Registro Manual → Planilla Digital Simple</p>
+                </div>
+
+                <div class="analogy-box">
+                    <h4>Conceptos Clave: La Lógica del Flujo</h4>
+                    <table class="concept-table">
+                        <tr>
+                            <th>Concepto Financiero</th>
+                            <th>Lógica del Sistema</th>
+                            <th>Explicación Pedagógica</th>
+                        </tr>
+                        <tr>
+                            <td>Saldo</td>
+                            <td>Estado acumulado</td>
+                            <td>El punto de partida que se modifica secuencialmente con cada acción.</td>
+                        </tr>
+                        <tr>
+                            <td>Ingreso</td>
+                            <td>Suma al estado</td>
+                            <td>Operación que incrementa el recurso disponible.</td>
+                        </tr>
+                        <tr>
+                            <td>Egreso</td>
+                            <td>Resta al estado</td>
+                            <td>Operación que decrementa el recurso disponible.</td>
+                        </tr>
+                        <tr>
+                            <td>Categoría</td>
+                            <td>Etiqueta de significado</td>
+                            <td>Nombre descriptivo que da contexto al dato numérico.</td>
+                        </tr>
+                        <tr>
+                            <td>Fecha</td>
+                            <td>Orden de ejecución</td>
+                            <td>La secuencia temporal es crítica; el dinero tiene memoria secuencial.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="activity-box">
+                    <h4>🏃 Actividad Práctica</h4>
+                    <ol>
+                        <li>Registrar 15 transacciones reales o simuladas de un mes.</li>
+                        <li>Calcular el saldo final manualmente.</li>
+                        <li>Identificar: ¿cuántos ingresos? ¿cuántos egresos? ¿cuál fue el mayor gasto?</li>
+                    </ol>
+                </div>
+
+                <!-- COMPLEMENTO DOCENTE -->
+                <details class="teacher-tool">
+                    <summary>🧭 COMPLEMENTO DOCENTE - PARTE 1 (Clic para expandir)</summary>
+                    <div class="details-content">
+                        <h4>Dificultades Cognitivas Anticipadas</h4>
+                        <table class="small-table">
+                            <tr><th>Dificultad</th><th>Señal</th><th>Estrategia</th></tr>
+                            <tr><td>Confusión ingreso/egreso</td><td>Suma cuando debería restar</td><td>Usar colores: verde (entra), rojo (sale)</td></tr>
+                            <tr><td>No entender saldo acumulativo</td><td>Calcula cada línea desde cero</td><td>Dibujar flechas que muestran el flujo</td></tr>
+                            <tr><td>Fechas desordenadas</td><td>Registra sin orden temporal</td><td>Enfatizar: "el dinero tiene memoria secuencial"</td></tr>
+                            <tr><td>Categorías inconsistentes</td><td>"Comida" un día, "Super" otro</td><td>Crear taxonomía fija de 5-7 categorías</td></tr>
+                        </table>
+
+                        <h4>Analogías Interdisciplinarias</h4>
+                        <ul>
+                            <li><strong>Física:</strong> El saldo es como la posición; los movimientos son fuerzas. <em>"¿Qué es la velocidad financiera?"</em></li>
+                            <li><strong>Biología:</strong> Ingresos = metabolismo; Egresos = gasto energético.</li>
+                            <li><strong>Psicología:</strong> El registro es memoria externa. <em>"¿Por qué nos cuesta registrar gastos pequeños?"</em></li>
+                            <li><strong>Historia:</strong> El registro es un diario histórico personal.</li>
+                        </ul>
+
+                        <h4>Estrategia de Debugging Financiero</h4>
+                        <p>Cuando los números no cierran: 1) Verificar apertura, 2) Revisar secuencia, 3) Chequear signos, 4) Buscar transacciones faltantes, 5) Validar con externo.</p>
+                        
+                        <h4>Preguntas Socráticas</h4>
+                        <blockquote>"Si registrás un gasto pero no lo anotás, ¿el dinero desapareció igual? ¿Qué diferencia hay entre no tener dinero y no saber dónde está?"</blockquote>
+                    </div>
+                </details>
+
+                <!-- COMPLEMENTO ESTUDIANTE -->
+                <details class="student-tool">
+                    <summary>📋 COMPLEMENTO ESTUDIANTE - PARTE 1 (Clic para expandir)</summary>
+                    <div class="details-content">
+                        <div class="grid-2">
+                            <div class="info-box success">
+                                <h4>✅ Señales de buen camino</h4>
+                                <ul>
+                                    <li>Podés predecir el saldo antes de calcularlo.</li>
+                                    <li>Registrás transacciones dentro de las 24 horas.</li>
+                                    <li>Distinguís claramente ingreso de egreso.</li>
+                                    <li>Usás categorías consistentes.</li>
+                                </ul>
+                            </div>
+                            <div class="info-box warning">
+                                <h4>⚠️ Señales de ayuda</h4>
+                                <ul>
+                                    <li>El saldo no coincide y no sabés por qué.</li>
+                                    <li>Registrás solo gastos grandes.</li>
+                                    <li>Sentís ansiedad o culpa al registrar.</li>
+                                    <li>Abandonás después de una semana.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h4>🐛 Errores Comunes y Soluciones</h4>
+                        <table class="small-table">
+                            <tr><th>Error</th><th>Consecuencia</th><th>Solución</th></tr>
+                            <tr><td>Olvidar efectivo</td><td>El saldo no cierra</td><td>Registrar inmediatamente</td></tr>
+                            <tr><td>Mezclar fechas</td><td>No se entiende evolución</td><td>Ordenar cronológicamente</td></tr>
+                            <tr><td>Categorías amplias</td><td>No se identifican patrones</td><td>Máximo 10% en "Varios"</td></tr>
+                        </table>
+
+                        <h4>💡 Consejos</h4>
+                        <p>Registrá en el momento. Revisá semanalmente (15 min los domingos). Celebrá los hallazgos.</p>
+                    </div>
+                </details>
+
+                <!-- RÚBRICA -->
+                <details class="rubric-tool">
+                    <summary>📊 RÚBRICA DE EVALUACIÓN - PARTE 1</summary>
+                    <div class="details-content">
+                        <table class="rubric-table">
+                            <tr>
+                                <th>Dimensión</th>
+                                <th>Nivel Inicial (1)</th>
+                                <th>Nivel En Desarrollo (2)</th>
+                                <th>Nivel Consolidado (3)</th>
+                            </tr>
+                            <tr>
+                                <td>🔧 Precisión Técnica</td>
+                                <td>Errores frecuentes; saldos no cierran</td>
+                                <td>Mayormente correcto con errores menores</td>
+                                <td>Preciso; saldos coinciden con fuentes externas</td>
+                            </tr>
+                            <tr>
+                                <td>🧠 Comprensión Conceptual</td>
+                                <td>No distingue ingreso/egreso</td>
+                                <td>Comprende relación transacción-saldo</td>
+                                <td>Explica cómo cada transacción modifica el estado global</td>
+                            </tr>
+                            <tr>
+                                <td>🔗 Conexión Transversal</td>
+                                <td>No establece vínculos</td>
+                                <td>Menciona conexiones simples</td>
+                                <td>Analiza cómo decisiones reflejan valores/emociones</td>
+                            </tr>
+                            <tr>
+                                <td>🪞 Metacognición</td>
+                                <td>No reflexiona; abandona</td>
+                                <td>Registra dificultades sin sistematizar</td>
+                                <td>Documenta patrones y ajusta método</td>
+                            </tr>
+                        </table>
+                        <p class="small-text">Peso sugerido: Técnico 40% | Conceptual 30% | Conexión 15% | Metacognición 15%</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- PARTE 2 -->
+        <section id="parte2" class="content-section">
+            <div class="section-header">
+                <h2>Parte 2: La Mente Estructurada</h2>
+                <span class="tag">Presupuestos y Procesos</span>
+            </div>
+
+            <div class="card">
+                <h3>🎯 Objetivo Conceptual</h3>
+                <p>Transicionar del registro reactivo ("¿qué pasó?") a la planificación proactiva ("¿qué quiero que pase?"). Las finanzas se organizan en funciones reutilizables.</p>
+                
+                <div class="case-study">
+                    <h4>📁 CASO EVOLUTIVO 2: "El Sistema Presupuestario"</h4>
+                    <p><strong>Documento Base:</strong> Plantilla de Presupuesto Modular</p>
+                </div>
+
+                <div class="analogy-box">
+                    <h4>Conceptos Clave: Planificación y Límites</h4>
+                    <table class="concept-table">
+                        <tr>
+                            <th>Concepto Financiero</th>
+                            <th>Lógica del Sistema</th>
+                            <th>Explicación Pedagógica</th>
+                        </tr>
+                        <tr>
+                            <td>Presupuesto</td>
+                            <td>Función con parámetros</td>
+                            <td>Define límites reutilizables mes a mes basados en ingresos y categorías.</td>
+                        </tr>
+                        <tr>
+                            <td>Límite por categoría</td>
+                            <td>Condición de alerta</td>
+                            <td>Umbral máximo que, al superarse, requiere atención inmediata.</td>
+                        </tr>
+                        <tr>
+                            <td>Proyección</td>
+                            <td>Extrapolación de tendencias</td>
+                            <td>Calcular el futuro: <em>saldo_futuro = saldo_actual + (ahorro × meses)</em></td>
+                        </tr>
+                        <tr>
+                            <td>Variación</td>
+                            <td>Feedback del sistema</td>
+                            <td>Diferencia entre lo esperado y lo real; dato valioso para ajustar.</td>
+                        </tr>
+                        <tr>
+                            <td>Regla de porcentajes</td>
+                            <td>Constantes configurables</td>
+                            <td>Parámetros (ej. 30%, 15%) que se ajustan sin cambiar la lógica base.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="activity-box">
+                    <h4>🏃 Actividad Práctica</h4>
+                    <ol>
+                        <li>Crear un presupuesto para el próximo mes basado en el registro de la Parte 1.</li>
+                        <li>Definir límites por categoría usando la regla 50/30/20 o personalizada.</li>
+                        <li>Al final del mes, comparar real vs. presupuestado y analizar variaciones.</li>
+                        <li>Ajustar el presupuesto del mes siguiente basado en aprendizajes.</li>
+                    </ol>
+                </div>
+
+                <!-- COMPLEMENTO DOCENTE -->
+                <details class="teacher-tool">
+                    <summary>🧭 COMPLEMENTO DOCENTE - PARTE 2</summary>
+                    <div class="details-content">
+                        <h4>Dificultades Cognitivas</h4>
+                        <ul>
+                            <li><strong>Presupuesto como restricción punitiva:</strong> Reframear como libertad consciente.</li>
+                            <li><strong>Subestimar gastos variables:</strong> Mostrar datos históricos.</li>
+                            <li><strong>Abandono al primer excedente:</strong> Normalizar: el presupuesto es guía, no camisa de fuerza.</li>
+                        </ul>
+                        <h4>Analogías Interdisciplinarias</h4>
+                        <ul>
+                            <li><strong>Nutrición:</strong> Plan alimenticio (límites con flexibilidad).</li>
+                            <li><strong>Arquitectura:</strong> Plano vs. Construcción.</li>
+                            <li><strong>Música:</strong> Partitura vs. Interpretación.</li>
+                        </ul>
+                        <h4>Preguntas Socráticas</h4>
+                        <blockquote>"¿Un presupuesto que se cumple al 100% es un buen presupuesto o un presupuesto demasiado conservador?"</blockquote>
+                    </div>
+                </details>
+
+                <!-- COMPLEMENTO ESTUDIANTE -->
+                <details class="student-tool">
+                    <summary>📋 COMPLEMENTO ESTUDIANTE - PARTE 2</summary>
+                    <div class="details-content">
+                        <div class="grid-2">
+                            <div class="info-box success">
+                                <h4>✅ Buen Camino</h4>
+                                <ul>
+                                    <li>Basado en datos reales (Parte 1).</li>
+                                    <li>Ajustás límites cuando son irreales.</li>
+                                    <li>No abandonás al primer excedente.</li>
+                                </ul>
+                            </div>
+                            <div class="info-box warning">
+                                <h4>⚠️ Necesita Ayuda</h4>
+                                <ul>
+                                    <li>Genera ansiedad constante.</li>
+                                    <li>Presupuestás ingresos inseguros.</li>
+                                    <li>No revisás durante el mes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h4>💡 Consejos</h4>
+                        <p>Empezá conservador. Automatizá lo posible. Perdonate los excedentes (son datos, no fracasos). Revisá trimestralmente.</p>
+                    </div>
+                </details>
+
+                <!-- RÚBRICA -->
+                <details class="rubric-tool">
+                    <summary>📊 RÚBRICA DE EVALUACIÓN - PARTE 2</summary>
+                    <div class="details-content">
+                        <table class="rubric-table">
+                            <tr>
+                                <th>Dimensión</th>
+                                <th>Nivel Inicial (1)</th>
+                                <th>Nivel Consolidado (3)</th>
+                            </tr>
+                            <tr>
+                                <td>🔧 Precisión Técnica</td>
+                                <td>No usa datos reales; categorías inconsistentes</td>
+                                <td>Fundamentado en datos y se ajusta iterativamente</td>
+                            </tr>
+                            <tr>
+                                <td>🧠 Comprensión Conceptual</td>
+                                <td>Ve el presupuesto como restricción fija</td>
+                                <td>Herramienta dinámica de toma de decisiones</td>
+                            </tr>
+                            <tr>
+                                <td>🪞 Metacognición</td>
+                                <td>Abandona ante excedentes</td>
+                                <td>Usa variaciones como feedback para ajustar hábitos</td>
+                            </tr>
+                        </table>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- PARTE 3 -->
+        <section id="parte3" class="content-section">
+            <div class="section-header">
+                <h2>Parte 3: La Mente Abstracta</h2>
+                <span class="tag">Sistema Financiero Personal</span>
+            </div>
+
+            <div class="card">
+                <h3>🎯 Objetivo Conceptual</h3>
+                <p>Modelar las finanzas como un sistema de objetos interconectados con estado, comportamiento y persistencia. El dinero es un ecosistema.</p>
+                
+                <div class="case-study">
+                    <h4>📁 CASO EVOLUTIVO 3: "El Sistema de Patrimonio Orientado"</h4>
+                    <p><strong>Documento Base:</strong> Modelo de Objetos Financieros</p>
+                </div>
+
+                <div class="analogy-box">
+                    <h4>Conceptos Clave: Ecosistema y Patrimonio</h4>
+                    <table class="concept-table">
+                        <tr>
+                            <th>Concepto Financiero</th>
+                            <th>Lógica del Sistema</th>
+                            <th>Explicación Pedagógica</th>
+                        </tr>
+                        <tr>
+                            <td>Cuenta como entidad</td>
+                            <td>Atributos y Comportamiento</td>
+                            <td>Tiene un estado (saldo) y acciones posibles (depositar, retirar, invertir).</td>
+                        </tr>
+                        <tr>
+                            <td>Patrimonio neto</td>
+                            <td>Cálculo global</td>
+                            <td>La suma de todos los activos menos la suma de todos los pasivos.</td>
+                        </tr>
+                        <tr>
+                            <td>Fondo de emergencia</td>
+                            <td>Red de seguridad</td>
+                            <td>Mecanismo de protección ante imprevistos o excepciones del sistema.</td>
+                        </tr>
+                        <tr>
+                            <td>Persistencia histórica</td>
+                            <td>Memoria a largo plazo</td>
+                            <td>Los datos sobreviven al tiempo; permiten análisis de tendencias.</td>
+                        </tr>
+                        <tr>
+                            <td>Interacciones</td>
+                            <td>Conexiones entre partes</td>
+                            <td>Cómo una decisión en una cuenta afecta a las demás (ej. pagar deuda con ahorro).</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="activity-box">
+                    <h4>🏃 Actividad Práctica</h4>
+                    <ol>
+                        <li>Modelar tu situación financiera actual usando la estructura de objetos.</li>
+                        <li>Calcular patrimonio neto y proyectarlo a 12 meses con distintos escenarios.</li>
+                        <li>Diseñar un plan para reducir deuda de alto interés mientras se construye fondo de emergencia.</li>
+                        <li>Crear un archivo histórico que persista los estados mensuales.</li>
+                    </ol>
+                </div>
+
+                <!-- COMPLEMENTO DOCENTE -->
+                <details class="teacher-tool">
+                    <summary>🧭 COMPLEMENTO DOCENTE - PARTE 3</summary>
+                    <div class="details-content">
+                        <h4>Dificultades Cognitivas</h4>
+                        <ul>
+                            <li><strong>Abstracción excesiva:</strong> Mostrar cómo la modelización revela interacciones ocultas.</li>
+                            <li><strong>Ansiedad ante patrimonio neto:</strong> Normalizar: es un diagnóstico, no un juicio.</li>
+                            <li><strong>Confusión activo/pasivo:</strong> Enseñar definición técnica (activo pone dinero, pasivo saca).</li>
+                        </ul>
+                        <h4>Analogías Interdisciplinarias</h4>
+                        <ul>
+                            <li><strong>Biología de Sistemas:</strong> Órganos con funciones especializadas (homeostasis).</li>
+                            <li><strong>Arquitectura:</strong> Cimientos (fondo), estructura (activos), mantenimiento.</li>
+                            <li><strong>Ecología:</strong> Diversidad, resiliencia, sostenibilidad.</li>
+                            <li><strong>Filosofía:</strong> Dinero como tiempo cristalizado; patrimonio como libertad acumulada.</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <!-- COMPLEMENTO ESTUDIANTE -->
+                <details class="student-tool">
+                    <summary>📋 COMPLEMENTO ESTUDIANTE - PARTE 3</summary>
+                    <div class="details-content">
+                        <div class="grid-2">
+                            <div class="info-box success">
+                                <h4>✅ Buen Camino</h4>
+                                <ul>
+                                    <li>Explicás cómo cada objeto afecta a los demás.</li>
+                                    <li>Calculás patrimonio neto regularmente.</li>
+                                    <li>Tenés fondo de emergencia en marcha.</li>
+                                </ul>
+                            </div>
+                            <div class="info-box warning">
+                                <h4>⚠️ Necesita Ayuda</h4>
+                                <ul>
+                                    <li>Evitás mirar el panorama completo.</li>
+                                    <li>Inversiones sin entender el riesgo.</li>
+                                    <li>Sistema demasiado complejo para mantener.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h4>💡 Consejos</h4>
+                        <p>Empezá simple (3 objetos: Cuenta, Ahorro, Deuda). Automatizá interacciones. Documentá las decisiones.</p>
+                    </div>
+                </details>
+
+                <!-- RÚBRICA -->
+                <details class="rubric-tool">
+                    <summary>📊 RÚBRICA DE EVALUACIÓN - PARTE 3</summary>
+                    <div class="details-content">
+                        <table class="rubric-table">
+                            <tr>
+                                <th>Dimensión</th>
+                                <th>Nivel Inicial (1)</th>
+                                <th>Nivel Consolidado (3)</th>
+                            </tr>
+                            <tr>
+                                <td>🔧 Precisión Técnica</td>
+                                <td>Modelo incompleto; patrimonio incorrecto</td>
+                                <td>Modelo completo, preciso y actualizado</td>
+                            </tr>
+                            <tr>
+                                <td>🧠 Comprensión Conceptual</td>
+                                <td>Cuentas como compartimentos aislados</td>
+                                <td>Sistema como ecosistema interconectado</td>
+                            </tr>
+                            <tr>
+                                <td>🪞 Metacognición</td>
+                                <td>Mantenimiento por obligación</td>
+                                <td>Herramienta de autoconocimiento</td>
+                            </tr>
+                        </table>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- TRANSVERSAL -->
+        <section id="transversal" class="content-section">
+            <div class="section-header">
+                <h2>Complementos Transversales</h2>
+                <span class="tag">Herramientas y Cierre</span>
+            </div>
+
+            <div class="card">
+                <h3>🧰 Herramientas de Seguimiento</h3>
+                <div class="checklist-container">
+                    <h4>Checklist de Progreso Personal</h4>
+                    <table class="checklist-table">
+                        <tr>
+                            <th>Hito</th>
+                            <th>Parte 1</th>
+                            <th>Parte 2</th>
+                            <th>Parte 3</th>
+                        </tr>
+                        <tr>
+                            <td>Registro completo de transacciones</td>
+                            <td>☐</td>
+                            <td>☐</td>
+                            <td>☐</td>
+                        </tr>
+                        <tr>
+                            <td>Presupuesto basado en datos reales</td>
+                            <td>N/A</td>
+                            <td>☐</td>
+                            <td>☐</td>
+                        </tr>
+                        <tr>
+                            <td>Cálculo de patrimonio neto</td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td>☐</td>
+                        </tr>
+                        <tr>
+                            <td>Fondo de emergencia en marcha</td>
+                            <td>N/A</td>
+                            <td>☐</td>
+                            <td>☐</td>
+                        </tr>
+                        <tr>
+                            <td>Sistema mantenido 3 meses</td>
+                            <td>☐</td>
+                            <td>☐</td>
+                            <td>☐</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>🌈 Adaptaciones para Diversidad Cognitiva</h3>
+                <div class="grid-2">
+                    <div class="info-box">
+                        <h4>Ansiedad numérica</h4>
+                        <p>Empezar con categorías emocionales antes de números exactos.</p>
+                    </div>
+                    <div class="info-box">
+                        <h4>TDAH</h4>
+                        <p>Automatizar al máximo; revisiones quincenales.</p>
+                    </div>
+                    <div class="info-box">
+                        <h4>Dislexia</h4>
+                        <p>Códigos de colores, íconos, registros en audio.</p>
+                    </div>
+                    <div class="info-box">
+                        <h4>Trauma financiero</h4>
+                        <p>Enfoque en seguridad; evitar lenguaje de "deberías".</p>
+                    </div>
+                </div>
+
+                <h3>🎯 Evaluación Final Integradora</h3>
+                <div class="project-box">
+                    <h4>Proyecto de Cierre: "Mi Sistema Financiero en 5 Años"</h4>
+                    <p>El estudiante presenta un documento que incluye:</p>
+                    <ul>
+                        <li><strong>Estado actual:</strong> Modelo de objetos financiero completo.</li>
+                        <li><strong>Proyección a 5 años:</strong> 3 escenarios (conservador, realista, optimista).</li>
+                        <li><strong>Plan de acción:</strong> Cambios a implementar en 12 meses.</li>
+                        <li><strong>Reflexión crítica:</strong> ¿Cómo este sistema refleja mis valores?</li>
+                    </ul>
+                </div>
+
+                <h3>🚀 Reflexión Final MUAR</h3>
+                <blockquote class="final-quote">
+                    "Enseñar finanzas con el MUAR no es formar inversores; es formar personas capaces de tomar decisiones conscientes sobre un recurso que afecta cada aspecto de sus vidas. El dinero es solo el medio; la libertad, la seguridad, la capacidad de elegir, son los fines."
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Curso Finanzas Personales y Organizacionales - MUAR 2.0</p>
+        <p class="small-text">Web App Educativa - Modo Oscuro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
